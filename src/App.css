@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    @import url ('https://fonts.googleapis.com/css2? família=Montserrat:ital,wght@0,100;0,200;0.300;0.400;0.500;0.600;0.700;0.800;0.900;1.100;1.200;1,1300;1.400;1.500;1.600;1.700;1.800;1.900&família=Open+Sans:ital,wght@0.300;0.400;0.500;0.600;0.700;0.800;1.300;1.400;1.500;1.600;1.700;1.800&família=Poppins:ital,wght@0,100;0.200;0.300;0.400;0,5 00;0,600;0.700;0.800;0.900;1.100;1.200;1.300;1.400;1.500;1.600;1.700;1.800&família= Roboto:ital,wght@0,100;0,300;0,400;0.500;0.700;0.900;1.100;1.300;1.400;1.500;1.700;1.900&display='swap);
+}
+
+body{
+    background-color: #111;
+    color: #fff;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.lists{
+    margin-top: -160px;
+}
+
+footer{
+    margin: 50px 0;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease 0.5s;
+}
